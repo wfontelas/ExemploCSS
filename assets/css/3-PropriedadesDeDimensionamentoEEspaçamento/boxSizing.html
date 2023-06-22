@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha CSS</title>
+    <style>
+
+        /*Para o css respeitar o que definimos como largura no width
+         devemo usar a propriedade box-sizing*/
+        div {
+            width: 200px;
+            height: 200px;
+            color:white;
+
+            margin: 20px;
+            padding: 20px;
+        }
+
+        #elemento-01 {
+            background: orange;
+        }
+
+        #elemento-02 {
+            background: purple;
+            box-sizing: border-box;
+        }
+
+        /*
+          * width = largura + borda + padding
+            200px + 20px + 20px = 240px  
+        */
+    </style>
+</head>
+<body>
+    <div id="elemento-01"></div>
+    <div id="elemento-02"></div>
+</body>
+</html>
