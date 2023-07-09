@@ -1,0 +1,290 @@
+/*background-image: */
+
+/* .exemplo {
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred; */
+    /* background-image: url('dio.jpg'), url('dio.jpg'); */
+    /* background-image: linear-gradient(lightpink, palevioletred, purple); */
+    /*background-image: radial-gradient(lightpink, palevioletred, purple);*/
+    /* background-image: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px); 
+} */
+
+/*CSS3 Paterns */
+/*---------------------------------------------------------------*/
+/*background-size*/
+
+/* div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    /* background-image:url(../3-FundoDosElementos/dio.png), url('../3-FundoDosElementos/montanha.jpg'); */
+        
+
+
+/* #cover {
+    background-size: cover;
+}
+
+#contain {
+    background-size: contain;
+}
+
+#tamanho {
+    background-size: 50%; ou em px 
+}
+
+#exemplo-x-y {
+    background-size: 200px 100%;
+}
+
+#exemplo-camadas {
+    background-size: contain, cover; /* ou px e %
+} */
+
+/*-------------------------------------------------------------*/
+
+/*background-repeat*/
+
+/* div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../3-FundoDosElementos/montanha.jpg');
+    background-size: 120px;
+    border: 1px solid red;
+}
+
+#repeat-x {
+    background-repeat: repeat-x;
+}
+
+#repeat-y {
+    background-repeat: repeat-y;
+}
+
+#space {
+    background-repeat: space;
+}
+
+#round {
+    background-repeat: round;
+} 
+
+#no-repeat {
+    background-repeat: no-repeat;
+}*/
+
+/*---------------------------------------------------------------*/
+
+/*background-position*/
+
+/* div {
+    margin-bottom: 30px;
+} */
+
+/* .exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../3-FundoDosElementos/montanha.jpg');
+    background-size: 120px;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    /* background-position: 30px; */
+    /* background-position: 10%; */
+    /* background-position: center top; */
+    /* background-position :horizontal vertical; */ 
+    /*background-position: bottom 10px right 20px; 
+   
+} */
+
+/*------------------------------------------------------------*/
+
+/*background-attachment*/
+
+/* body {
+   height: 200vh; 
+}
+
+div {
+    margin-bottom: 30px;
+}
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../3-FundoDosElementos/montanha.jpg');
+    background-size: cover;
+    border: 1px solid red;
+    overflow: auto;    
+}
+
+#fixed {
+    background-attachment: fixed;
+}
+
+#scroll {
+    background-attachment: scroll;
+}
+
+#local {
+    background-attachment: local;
+} */
+
+/*---------------------------------------------------------------*/
+
+/*Background-origin*/
+/* body {
+ background-color: palevioletred;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../3-FundoDosElementos/montanha.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed palegreen;
+    padding: 30px;
+}
+
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+} */
+
+/*--------------------------------------------------------------*/
+/*Background-clip*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/* * {
+    font-family: Roboto;
+}
+
+div { 
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    background-color: palevioletred;
+
+    background-color: hsl(34, 53%, 82%);
+    background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+    ),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+    );
+
+}
+
+#padding-box {
+    background-clip: padding-box;
+}
+
+#border-box {
+    background-clip: border-box;
+}
+
+#content-box {
+    background-clip:content-box;
+}
+
+#text {
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 5px solid black;
+    background-clip: text;
+} */
+
+/*------------------------------------------------------------------------------------------*/
+
+/*background-blend-mode (mesclagem)*/
+/* 
+div {
+    margin-bottom: 30px;
+}
+
+* {
+    font-family: Roboto;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    background-color: palevioletred;
+    background-image: url('../3-FundoDosElementos/montanha.jpg');
+    background-blend-mode: multiply; /*screen, overlay, darken, lighten, color-dodge, color-burn e etc **ver mais exemplo no codepen.io Background blend mode
+} */
+
+/*---------------------------------------------------------------------------------------------*/
+
+/*Background*/
+
+* {
+    font-family: Roboto;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 900;
+
+    background:
+     url('../3-FundoDosElementos/montanha.jpg') /* image*/ 
+     top center / 200px 200px /*position / size */
+     no-repeat /*repeat*/
+     fixed /*attachement*/
+     padding-box /*origin*/
+     content-box /*clip*/
+     red /*color*/
+     ;
+}
+
+

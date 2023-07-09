@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    margin: 50px auto;
+}
+
+#exemplo-1 {
+    border-image-source: url('../3-FundoDosElementos/montanha.jpg');
+    border-image-repeat: round; /* repeat, stretch, round, space*/
+    border-image-slice: 87;
+    border-image-width: 10px; 
+    border-image-outset: 30px;
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(rgb(0, 145, 255), rgb(0, 242, 255));
+    border-image-slice:10;
+}
+
+#exemplo-resumido {
+    border-image: url('../3-FundoDosElementos/montanha.jpg') 87 / 10px / 30px round;    
+}
