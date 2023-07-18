@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>     
+
+        div {
+            padding: 10px;
+        }
+
+        .exemplo-01 {
+            background-color: yellow;
+            width: 300px;
+            box-sizing: border-box;
+        }
+
+        .exemplo-02 {
+            background-color: palevioletred;
+            box-sizing: border-box;
+            width: calc(100% -30 px);
+        }   
+
+    </style>
+</head>
+<body>
+    <h1>Função calc()</h1>
+
+    <div class="exemplo-01">
+        Elemento pai
+        <div class="exemplo-02">
+            Elemento filho
+        </div>
+    </div>
+</body>
+</html>

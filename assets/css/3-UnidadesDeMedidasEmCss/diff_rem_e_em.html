@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        p {
+            margin: 0;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        .exemplo-01 {
+            background-color: yellow;
+        }
+
+        .exemplo-02 {
+            background-color: palevioletred;
+        }
+
+        .exemplo-03 {
+            background-color: aquamarine;
+        }   
+    </style>
+</head>
+<body>
+    <h1>Unidade de medida 1rem</h1>
+
+    <p style="font-size: 2rem;">
+        font-size: 2rem;
+    </p>
+    <p style="font-size: 2em">
+        font-size: 2em;
+    </p>
+    <p style="font-size: 3rem">
+        font-size: 200%;
+    </p>
+
+    <hr><br>
+
+    <div class="exemplo-01" style="font-size: 2rem;">
+        font-size: 2rem;
+        <div class="exemplo-02" style="font-size: 2em;">
+            font-size: 2em;        
+        </div>
+        <div class="exemplo-03" style="font-size: 200%;">
+            font-size: 200%;                
+        </div>
+        <div class="exemplo-02" style="font-size: 2rem;">
+            font-size: 2rem;                
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--
+    Vantagens de utilizar as unidades em e rem
+
+    A utilização das unidades em e rem traz flexbilidade aos nossos projetos e a capacidade de dimensionar os elementos das nossas páginas web, resultando em designs:
+
+    -Fácil manutenção
+    -Responsivos
+    -Controle de escala pelos navegadores
+
+    Configuração de fontes pelos navegadores
+
+    O elemento raiz <html> herda o valor padrão do tamanho das fonteas dos navegadores e esse tamanho pode ser configurado nas prêferencias dos brewsers.
+
+    Utilizando as unidade de medidas em e rem, facilmente o texto do nosso projeto pode ser escalado de acordd com as configurações que os usuários predefiniram em seus navegadores.
+
+
+    Uso do rem e do em
+
+    Por que utilizar a unidade de medida rem?
+
+    -Tamanhos consistentes, sem herança
+    -Melhor experiência do usuário
+
+    Por que utilizar a unidade de medida em?
+
+    -Contexto dos elementos
+-->
